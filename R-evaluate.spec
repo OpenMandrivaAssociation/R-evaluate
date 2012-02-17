@@ -5,7 +5,7 @@
 Name:             R-%{packname}
 Version:          0.4.1
 Release:          1
-Summary:          Parsing and evaluation tools that provide more details than the default.
+Summary:          Parsing and evaluation tools that provide more details than the default
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
