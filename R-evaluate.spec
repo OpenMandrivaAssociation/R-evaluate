@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          0.4.1
-Release:          2
+Release:          3
 Summary:          Parsing and evaluation tools that provide more details than the default
 Group:            Sciences/Mathematics
 License:          GPL
