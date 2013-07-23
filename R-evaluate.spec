@@ -3,8 +3,8 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.4.1
-Release:          3
+Version:          0.4.4
+Release:          1
 Summary:          Parsing and evaluation tools that provide more details than the default
 Group:            Sciences/Mathematics
 License:          GPL
@@ -58,3 +58,15 @@ xvfb-run %{_bindir}/R CMD check %{packname}
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/tests
+
+
+%changelog
+* Tue Feb 21 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4.1-2
++ Revision: 778352
+- Rebuild with proper dependencies
+
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4.1-1
++ Revision: 775806
+- Import R-evaluate
+- Import R-evaluate
+
