@@ -3,13 +3,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.4.4
+Version:          0.4.7
 Release:          1
 Summary:          Parsing and evaluation tools that provide more details than the default
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/evaluate_0.4.7.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-stringr 
@@ -69,4 +69,5 @@ xvfb-run %{_bindir}/R CMD check %{packname}
 + Revision: 775806
 - Import R-evaluate
 - Import R-evaluate
+
 
