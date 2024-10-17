@@ -8,7 +8,7 @@ Release:          1
 Summary:          Parsing and evaluation tools that provide more details than the default
 Group:            Sciences/Mathematics
 License:          GPL
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/evaluate_0.4.7.tar.gz
 BuildArch:        noarch
 Requires:         R-core
